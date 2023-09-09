@@ -15,7 +15,6 @@
   --span-color: #95baeb;
 }
 body {
-  margin-top: 100px;
   color: var(--text-color);
   background-color: var(--bg-color);
 }
