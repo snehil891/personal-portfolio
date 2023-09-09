@@ -15,7 +15,7 @@
 
 .project .title span {
   font-size: max(2rem, 4vw);
-  color: #fff;
+  color: var(--span-color);
 }
 
 .container{

@@ -12,7 +12,7 @@
 
 .education .heading span {
   font-size: max(2rem,4vw);
-  color: #fff;
+  color: var(--span-color);
 }
 
 .education-column .education-box {

@@ -9,10 +9,10 @@
 }
 
 :root {
-  --bg-color: #4F709C;
+  --bg-color: #EADBC8;
   --text-color: #000000;
   --main-color: #F0F0F0;
-  --span-color: #95baeb;
+  --span-color: #DAC0A3;
 }
 body {
   color: var(--text-color);

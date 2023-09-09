@@ -3,7 +3,7 @@
   width: 60px;
   height: 60px;
   background-color: transparent;
-  border: 6px solid rgba(255, 255, 255, 0.916);
+  border: 6px solid #102c57e0;
 }
 
 .animated-box div:nth-child(1) {
