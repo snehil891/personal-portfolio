@@ -9,9 +9,10 @@
 }
 
 :root {
-  --bg-color: #F8F0E5;
+  --bg-color: #4F709C;
   --text-color: #000000;
-  --main-color: #DAC0A3;
+  --main-color: #F0F0F0;
+  --span-color: #95baeb;
 }
 body {
   margin-top: 100px;
