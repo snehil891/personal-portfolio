@@ -1,12 +1,25 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from "react";
 import "./styles/profile.css";
+import "./styles/animated-background.css";
 import myImage from "./myImage.jpg";
 import Resume from "./Resume.pdf";
 
 export default function Profile() {
   return (
     <div className="animated-background">
+      <div className="animated-box">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
       <div className="home" id="home">
         <div className="img">
           <img src={myImage} about="image" alt="image"></img>
