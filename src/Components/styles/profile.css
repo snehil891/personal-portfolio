@@ -80,7 +80,7 @@
 @media (width<950px) {
   .home {
     flex-direction: column;
-    margin-top: 10%;
+    margin-top: 100px;
   }
   .home img {
     min-height: 10vh;
@@ -99,7 +99,7 @@
 @media (width<700px) {
   .home {
     flex-direction: column;
-    /* margin-top: 10%; */
+    margin-top: 100px;
   }
   .home img {
     min-height: 10vh;
@@ -118,7 +118,7 @@
 @media (width<600px) {
   .home {
     flex-direction: column;
-    /* margin-top: 15%; */
+    margin-top: 100px;
   }
   .home img {
     min-height: 10vh;
