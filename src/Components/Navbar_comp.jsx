@@ -1,5 +1,5 @@
 import "./styles/nav.css";
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 import { useState } from "react";
 import logo from "./logo.png";
 
