@@ -1,0 +1,135 @@
+.home img {
+  max-height: 350px;
+  width: auto;
+  /* max-width: 25vw; */
+  align-items: flex-start;
+  padding: 0 20px;
+  border-radius: 50%;
+}
+.home {
+  display: flex;
+  max-width: 1200px;
+  margin: auto;
+  align-items: center;
+  padding: 0 5px;
+}
+.home-content {
+  margin:40px 10px;
+}
+.home-content h1 {
+  font-size: max(2.5rem, 4.25vw);
+  font-weight: 700;
+}
+
+.home-content h1 span {
+  color: rgb(148, 133, 133);
+}
+
+.home-content .text h3 {
+  font-size: max(2.5rem, 4.25vw);
+  font-weight: 600;
+  margin: 10px 0;
+  color: transparent;
+  -webkit-text-stroke: 0.8px #525c28;
+}
+
+.home-content p {
+  font-size: max(1.5rem,2.5vw);
+  margin: 10px 0;
+}
+
+.home .btn-box {
+  position: relative;
+  font-size: max(1.1rem, 1.25vw);
+  height: 70px;
+}
+
+.home .btn-box .btn {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 15vw;
+  height: 70px;
+  font-weight: 500;
+  color: var(--bg-color);
+  padding: 0 5px;
+  background: var(--main-color);
+  border: 0.2vw solid var(--main-color);
+  border-radius: 15px;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.home .btn-box .btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #d0a75f;
+  z-index: -1;
+  transition: 1.1s;
+}
+
+.home .btn-box .btn:hover::before {
+  width: 100%;
+}
+@media (width<950px) {
+  .home {
+    flex-direction: column;
+    margin-top: 10%;
+  }
+  .home img {
+    min-height: 10vh;
+    max-width: 40vw;
+  }
+  .home-content {
+    padding-top: 5%;
+  }
+  .home-content .text h3{
+    margin: 12px 0;
+  }
+  .home-content p {
+    margin: 12px 0;
+  }
+}
+@media (width<700px) {
+  .home {
+    flex-direction: column;
+    /* margin-top: 10%; */
+  }
+  .home img {
+    min-height: 10vh;
+    max-width: 40vw;
+  }
+  .home-content {
+    padding-top: 5%;
+  }
+  .home-content .text h3{
+    margin: 15px 0;
+  }
+  .home-content p {
+    margin: 15px 0;
+  }
+}
+@media (width<600px) {
+  .home {
+    flex-direction: column;
+    /* margin-top: 15%; */
+  }
+  .home img {
+    min-height: 10vh;
+    max-width: 50vw;
+  }
+  .home-content {
+    padding-top: 3%;
+  }
+  .home-content .text h3{
+    margin: 8px 0;
+  }
+  .home-content p {
+    margin: 9px 0;
+  }
+}
