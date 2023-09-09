@@ -5,6 +5,7 @@
   flex-direction: column;
   background-color: #102c57e0;
   min-height: 50vh;
+  width: 100%;
 }
 
 .contact .detail {
@@ -30,6 +31,7 @@
   align-items: center;
   flex-direction: column;
   color: #fff;
+  font-size: max(1.2rem, 1.25vw);
   cursor: pointer;
   text-decoration: none;
 }
