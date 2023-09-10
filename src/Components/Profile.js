@@ -29,7 +29,7 @@ export default function Profile() {
             Hi I'm <span>Snehil Sah</span>
           </h1>
           <div className="text">
-            <h3>Web Developer</h3>
+            <h3>Front-end Developer</h3>
           </div>
           <p>
             Aiming to obtain a successful career in the IT Industry and to fully
