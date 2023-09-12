@@ -20,7 +20,7 @@ export default function Project() {
             {/* <p>This is my Personal portfolio website where users can find about my education journey,
               my skills,my projects and can also contact me.
             </p> */}
-            <a href="https://snehil891.github.io/my-portfolio/" target="blank" rel = "norefferer" className="btn">View Project</a>
+            <a href="https://snehil891.github.io/personal-portfolio/" target="blank" rel = "norefferer" className="btn">View Project</a>
           </div>
           <div class="card">
             <img src={BloodBank} alt="image"></img>
