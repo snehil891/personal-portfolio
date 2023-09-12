@@ -67,18 +67,18 @@
 }
 
 .content-section .card .btn{
-  background-color: #fff;
+  background-color: #000000;
   padding: 10px 15px;
   border-radius: 10px;
   box-shadow:  0px 20px 20px 0px rgba(0, 0, 0, 0.2);
   margin-bottom: 20px;
-  color: black;
+  color: rgb(255, 255, 255);
   text-decoration: none;
   cursor: pointer; 
 }
 
 .content-section .card .btn:hover{
-  background-color: #102c57e0;
+  background-color: #4682A9;
   color: #fff;
   transition: 0.6s ease-in-out;
 }
