@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from "react";
 import "./styles/project.css";
-import Portfolio from "./portfolio.jpg";
+import Portfolio from "./portfolio.jpeg";
 import BloodBank from "./bloodbank.jpg";
 import GameSearch from "./gamesearch.jpg";
 import Calculator from "./calculator-app.jpeg";
