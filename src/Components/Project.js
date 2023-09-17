@@ -3,8 +3,8 @@ import React from "react";
 import "./styles/project.css";
 import Portfolio from "./portfolio.jpeg";
 import BloodBank from "./bloodbank.jpg";
-import GameSearch from "./gamesearch.jpg";
-import Calculator from "./calculator-app.jpeg";
+import GameSearch from "./gamesearch.jpeg";
+import Calculator from "./calculator-app.jpg";
 
 export default function Project() {
   return (
