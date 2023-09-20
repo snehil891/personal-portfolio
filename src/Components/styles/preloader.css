@@ -1,46 +1,8 @@
-.center{
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-}
-
-.ring{
-    position: absolute;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    animation: ring 2s linear infinite;
-}
-
-.ring:before{
-    position: absolute;
-    content: '';
-    left: 0;
-    right: 0;
-    height: 100%;
+.preloader{
+    background: #0d0121 url(E:\Project\portfolio\src\Components\preloader.gif) no-repeat center center;
+    height: 100vh;
     width: 100%;
-    border-radius: 50%;
-    box-shadow: 0 0 5px rgba(255,255,255,0.3);
+    background-size: 35%;
+    position: fixed;
+    z-index: 100;
 }
-
-span{
-    color: #fff;
-}
-
-@keyframes ring{
-    0%{
-        transform: rotate(0deg);
-        box-shadow: 1px 5px 2px #e65c00;
-    }
-    50%{
-        transform: rotate(180deg);
-        box-shadow: 1px 5px 2px #b2017d;
-    }
-    100%{
-        transform: rotate(360deg);
-        box-shadow: 1px 5px 2px #0b04c8;
-    }
-}
-
