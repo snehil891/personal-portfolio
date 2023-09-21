@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/personal-portfolio/static/css/main.7c95dd77.css",
+    "main.css": "/personal-portfolio/static/css/main.597c9a36.css",
     "main.js": "/personal-portfolio/static/js/main.dc9b4258.js",
     "static/js/787.fb771931.chunk.js": "/personal-portfolio/static/js/787.fb771931.chunk.js",
-    "static/media/preloader.gif": "/personal-portfolio/static/media/preloader.57545034a1f021532852.gif",
+    "static/media/preloader.gif": "/personal-portfolio/static/media/preloader.347a3f2b4e1e454179e6.gif",
     "static/media/myImage.jpg": "/personal-portfolio/static/media/myImage.a52e1727ccebec42d8da.jpg",
     "static/media/gamesearch.jpeg": "/personal-portfolio/static/media/gamesearch.5bebf482a7eab43a1cd1.jpeg",
     "static/media/bloodbank.jpg": "/personal-portfolio/static/media/bloodbank.bd547a6bce44f4034cef.jpg",
@@ -12,12 +12,12 @@
     "static/media/logo.png": "/personal-portfolio/static/media/logo.92e1603c4d672ed71a69.png",
     "static/media/calculator-app.jpg": "/personal-portfolio/static/media/calculator-app.d197fc205af23cdc5537.jpg",
     "index.html": "/personal-portfolio/index.html",
-    "main.7c95dd77.css.map": "/personal-portfolio/static/css/main.7c95dd77.css.map",
+    "main.597c9a36.css.map": "/personal-portfolio/static/css/main.597c9a36.css.map",
     "main.dc9b4258.js.map": "/personal-portfolio/static/js/main.dc9b4258.js.map",
     "787.fb771931.chunk.js.map": "/personal-portfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c95dd77.css",
+    "static/css/main.597c9a36.css",
     "static/js/main.dc9b4258.js"
   ]
 }
