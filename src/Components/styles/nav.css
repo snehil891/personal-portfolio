@@ -62,7 +62,10 @@
   .nav .nav-links {
     display: none;
   }
-
+  .nav .logo img {
+    max-height: 40px;
+    display: flex;
+  }
   .nav.expanded {
     height: 100vh;
     background-color: #102c57b7;
@@ -75,7 +78,7 @@
 
   .nav.expanded .nav-links {
     font-size: 40px;
-    display: flex;
+    display:inline-flex;
     flex-direction: column;
     justify-content: center;
     width: -moz-fit-content;
