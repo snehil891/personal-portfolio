@@ -32,7 +32,7 @@ export default function Skills() {
               <div className="skills-content">
                 <div className="content">
                   <h3>Tools</h3>
-                  <p>NodeJS,Github</p>
+                  <p>NodeJS,Github,PowerBi</p>
                 </div>
               </div>
             </div>
