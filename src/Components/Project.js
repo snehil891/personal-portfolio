@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from "react";
 import "./styles/project.css";
-import Portfolio from "./portfolio.jpeg";
+import PowerBi from "./PowerBi.png";
 import BloodBank from "./bloodbank.jpg";
 import GameSearch from "./gamesearch.jpeg";
 import Calculator from "./calculator-app.jpg";
@@ -16,27 +16,15 @@ export default function Project() {
         <div className="container">
           <div className="content-section">
             <div class="card">
-              <img src={Portfolio} alt="image"></img>
-              <h4>Personal Portfolio</h4>
-              {/* <p>This is my Personal portfolio website where users can find about my education journey,
-              my skills,my projects and can also contact me.
-            </p> */}
-              <a
-                href="https://snehil891.github.io/personal-portfolio/"
-                target="blank"
-                rel="norefferer"
-                className="btn"
-              >
-                View Project
-              </a>
-            </div>
-            <div class="card">
               <img src={BloodBank} alt="image"></img>
               <h4>GITAM Blood Bank</h4>
-              {/* <p>This Blood Bank website is a group project where I have worked as a front-end
-              developer.It aims to provide user an online portal
-              for seamless blood donation & request.
-            </p> */}
+              {/* <div className="text-overlay">
+                  <p>
+                    This Blood Bank website is a group project where I have
+                    worked as a front-end developer.It aims to provide user an
+                    online portal for seamless blood donation & request.
+                  </p>
+                </div> */}
               <a
                 href="https://www.bloodbankgitam.live/"
                 target="blank"
@@ -71,6 +59,21 @@ export default function Project() {
             </p> */}
               <a
                 href="https://github.com/snehil891/calculator"
+                target="blank"
+                rel="norefferer"
+                className="btn"
+              >
+                View Project
+              </a>
+            </div>
+            <div class="card">
+              <img src={PowerBi} alt="image"></img>
+              <h4>E-Commerce Dashboard</h4>
+              {/* <p>This is my Personal portfolio website where users can find about my education journey,
+              my skills,my projects and can also contact me.
+            </p> */}
+              <a
+                href="https://github.com/snehil891/E-commerce-PowerBi.git"
                 target="blank"
                 rel="norefferer"
                 className="btn"

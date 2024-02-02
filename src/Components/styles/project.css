@@ -18,14 +18,14 @@
   color: var(--span-color);
 }
 
-.container{
+.container {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.content-section{
+.content-section {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -46,45 +46,45 @@
   transition: 0.3s ease-in;
 }
 
-.content-section .card img{
+.content-section .card img {
   width: 100%;
-  border-top-left-radius: 10px; 
-  border-top-right-radius: 10px; 
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   height: auto;
 }
 
-.content-section  .card h4{
+.content-section .card h4 {
   margin: 15px 0px;
   font-size: 20px;
   color: black;
-} 
+}
 
-.content-section .card p{
+.content-section .card p {
   font-size: 15px;
   line-height: 1.5;
   padding: 10px 10px;
   margin-bottom: 10px;
 }
 
-.content-section .card .btn{
+.content-section .card .btn {
   background-color: #000000;
   padding: 10px 15px;
   border-radius: 10px;
-  box-shadow:  0px 20px 20px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.2);
   margin-bottom: 20px;
   color: rgb(255, 255, 255);
   text-decoration: none;
-  cursor: pointer; 
+  cursor: pointer;
 }
 
-.content-section .card .btn:hover{
+.content-section .card .btn:hover {
   background-color: #4682A9;
   color: #fff;
   transition: 0.6s ease-in-out;
 }
 
-@media (width<=768px){
-  .content-section{
+@media (width<=768px) {
+  .content-section {
     flex-direction: column;
   }
 }
